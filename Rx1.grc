@@ -93,6 +93,60 @@
     </param>
     <param>
       <key>_coordinate</key>
+      <value>(568, 48)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>freq</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>2.5e9</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(792, 48)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>gain</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>10</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
       <value>(8, 160)</value>
     </param>
     <param>
@@ -132,11 +186,11 @@
     </param>
     <param>
       <key>file</key>
-      <value></value>
+      <value>/home/farrukh/Rx1.grc</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(560, 86)</value>
+      <value>(608, 134)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -175,7 +229,7 @@
     </param>
     <param>
       <key>center_freq0</key>
-      <value>0</value>
+      <value>freq</value>
     </param>
     <param>
       <key>dc_offs_enb0</key>
@@ -191,7 +245,7 @@
     </param>
     <param>
       <key>gain0</key>
-      <value>0</value>
+      <value>gain</value>
     </param>
     <param>
       <key>ant10</key>
@@ -1238,4 +1292,10 @@
       <value></value>
     </param>
   </block>
+  <connection>
+    <source_block_id>uhd_usrp_source_0</source_block_id>
+    <sink_block_id>blocks_file_sink_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
 </flow_graph>
