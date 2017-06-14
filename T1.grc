@@ -93,7 +93,34 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(224, 60)</value>
+      <value>(16, 92)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>D</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>8</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(104, 76)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -105,7 +132,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1720e6</value>
+      <value>3.7e9</value>
     </param>
   </block>
   <block>
@@ -132,7 +159,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>32000</value>
+      <value>100e6/D</value>
     </param>
   </block>
   <block>
@@ -155,11 +182,11 @@
     </param>
     <param>
       <key>_enabled</key>
-      <value>True</value>
+      <value>0</value>
     </param>
     <param>
       <key>file</key>
-      <value>/home/farrukh/wishful/OFDMsig2</value>
+      <value>/home/farrukh/WISHFUL/Radar2_3-7G_12-5M</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1589,7 +1616,7 @@
     </param>
     <param>
       <key>ref_level</key>
-      <value>80</value>
+      <value>-30</value>
     </param>
     <param>
       <key>ref_scale</key>
@@ -1652,7 +1679,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(608, 40)</value>
+      <value>(440, 32)</value>
     </param>
     <param>
       <key>_rotation</key>
